@@ -44,11 +44,10 @@ echo n | ./bootstrap.sh
 echo n | sudo ./b2 install variant=release link=static runtime-link=static threading=multi
 
 cd ~
+cd `pwd`/Libraries
 
-wget - https://sourceforge.net/projects/nanapro/files/latest/download
-unzip nana 1.5.6.zip -d `pwd`/Libraries/
-cd ~
-cd `pwd`\Libraries\nana\build\makefile\
+git clone https://github.com/cnjinhao/nana.git
+cd nana/build/makefile
 sudo make
 
 cd ~
