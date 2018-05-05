@@ -66,3 +66,8 @@ if ! [ $ok = "y" -o $ok = "Y" ]; then pass
     sudo apt-get install -f
 fi
 
+sudo dpkg --add-architecture i386 
+wbet -nc https://repos/wine-staging.com/wine/Release.key 
+sudo apt-key add Release.key
+sudo apt-get update
+sudo apt-get install --install-recommends winehq-staging
