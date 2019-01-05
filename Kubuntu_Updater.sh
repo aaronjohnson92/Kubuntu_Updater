@@ -1,5 +1,4 @@
 sudo apt-get install -y curl python3 python3-pip build-essential git python3 python3-dev ffmpeg libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev libgstreamer1.0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good mercurial libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libsdl1.2-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev python3-setuptools python3-wheel gcc playonlinux python3-setuptools python3-opengl python3-enchant python3-dev build-essential libgl1-mesa-dev libgles2-mesa-dev zlib1g-dev apt-transport-https cpu-checker qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils python-pip python-dev bochs nasm qemu virt-manager libxft-dev valgrind cmake boinc speech-dispatcher chipmunk-dev swig
-
 sudo add-apt-repository ppa:webupd8team/java
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update 
